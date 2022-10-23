@@ -1,14 +1,12 @@
-# Should I use Flex or Grid?
+# CSS Grid vs Flexbox: How to decide (with examples)
 
 Should you use a hammer or a screwdriver? Of course that would depend on the job!
 
-The same is true when comparing CSS Grid and Flexbox.  No one layout mode is better than the other. It depends on your task at hand!
+The same is true when comparing CSS Grid vs Flexbox. No one layout mode is better than the other. It depends on the task at hand!
 
-While there is some overlap between what Flex and Grid can do, they are fundamentally designed to solve different layout problems.
+**This post shows you [examples of when to use CSS Grid](#heading-when-to-use-css-grid) and [examples of when to use Flex](#heading-when-to-use-flexbox) before explaining the differences in detail so you can confidently reason about which tool to reach for no matter the scenario.**
 
-As with any tool, you must reach for the right tool for the job and in this post you will learn how.
-
-Thanks to the comprehensive examples in this post you will leave feeling a lot more confident about picking the best one for your task! We have also included a cheat sheet for you to reference quickly in the future.
+There is some overlap in what Grid and Flex can do, and that can be super confusing! By the end of this tutorial, you will understand the key differences and know how to pick the most suitable tool for your task.
 
 ## Flexbox
 
@@ -57,41 +55,53 @@ You might think there’s no need to learn Grid when you know Flex because they 
 
 Ehhh, no, not really. It’s important to remember that there will never be one layout mode to rule them all. They all exist for a reason.
 
-### When to use Flexbox
+### When to use Flexbox?
 
 In this section let’s look at some common uses for Flexbox:
 
-#### Distributed navigation
+#### Responsive navigation bar
+
+An example of distributed navigation:
 
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Distributed-navigation.png)
 <figcaption>
-<a href="https://mdn.github.io/css-examples/flexbox/use-cases/navigation.html">https://mdn.github.io/css-examples/flexbox/use-cases/navigation.html</a>
+<a href="https://mdn.github.io/css-examples/flexbox/use-cases/navigation.html">🔗 Play with the responsive navigation bar code</a>
 </figcaption>
 
 #### Split navigation
 
+An example of split navigation:
+
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Split-navigation.png)
-<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/split-navigation.html">https://mdn.github.io/css-examples/flexbox/use-cases/split-navigation.html</a></figcaption>
+<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/split-navigation.html">🔗 Play with the split navigation bar code</a></figcaption>
 
 #### Centring an element
 
+An example of centring an element:
+
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Centring-an-element.png)
-<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/center.html">https://mdn.github.io/css-examples/flexbox/use-cases/center.html</a></figcaption>
+<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/center.html">🔗 Play with the centring an element code</a></figcaption>
 
 #### Card layout pushing footer down
 
+An example of a card layout pushing footer down:
+
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Card-layout-pushing-footer-down.png)
-<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/cards.html">https://mdn.github.io/css-examples/flexbox/use-cases/cards.html</a></figcaption>
+<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/cards.html">🔗 Play with the card layout code</a></figcaption>
 
 #### Media objects
 
+An example of media objects:
+
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Media-objects.png)
-<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/media.html">https://mdn.github.io/css-examples/flexbox/use-cases/media.html</a></figcaption>
+<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/media.html">🔗 Play with the media objects code</a></figcaption>
 
 #### Form controls
 
+An example of form controls:
+
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/form-control-2.png)
-<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/label-input-button.html">https://mdn.github.io/css-examples/flexbox/use-cases/label-input-button.html</a></figcaption>
+<figcaption><a href="https://mdn.github.io/css-examples/flexbox/use-cases/label-input-button.html">🔗 Play with the form controls code</a></figcaption>
 
 ## CSS Grid
 
@@ -105,31 +115,31 @@ Web browser developers wrote the specifications for Flex and Grid around the sam
 
 Grid makes so many layouts that used to be near impossible a lot simpler.
 
-### When to use CSS Grid
+### When to use CSS Grid?
 
 In this section let’s look at some common uses for CSS Grid:
 
 #### Responsive 1-3 column holy grail layout
 
 ![](https://scrimba.com/articles/content/images/2022/10/Responsive-1-3-column-holy-grail-layout.png)
-<figcaption><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout#a_responsive_layout_with_1_to_3_fluid_columns_using_grid-template-areas">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout#a_responsive_layout_with_1_to_3_fluid_columns_using_grid-template-areas</a></figcaption>
+<figcaption><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout#a_responsive_layout_with_1_to_3_fluid_columns_using_grid-template-areas">🔗 Play with the holy grail layout code</a></figcaption>
 
 #### RAM (Repeat, Auto, Minmax)
 
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/RAM--Repeat--Auto--Minmax--1.png)
-<figcaption><a href="https://codepen.io/rachelandrew/pen/GZQYOL">https://codepen.io/rachelandrew/pen/GZQYOL</a></figcaption>
+<figcaption><a href="https://codepen.io/rachelandrew/pen/GZQYOL">🔗 Play with the RAM code</a></figcaption>
 
 #### Different sized grid items
 
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/09/Different-sized-grid-items-1.png)
-<figcaption><a href="https://codepen.io/rachelandrew/pen/QKwvxJ">https://codepen.io/rachelandrew/pen/QKwvxJ</a></figcaption>
+<figcaption><a href="https://codepen.io/rachelandrew/pen/QKwvxJ">🔗 Play with the multiple image hero block code</a></figcaption>
 
 #### Overlapping elements
 
 Grid gives you great control over element placement, including layering elements on top of each other.
 
 ![](https://scrimba.com/articles/content/images/size/w1000/2022/10/image.png)
-<figcaption><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#layering_items_with_z-index">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#layering_items_with_z-index</a></figcaption>
+<figcaption><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#layering_items_with_z-index">🔗 Play with the overlapping elements code</a></figcaption>
 
 #### Subgrid (coming soon)
 
@@ -145,7 +155,7 @@ Grid gives you great control over element placement, including layering elements
 ![A screenshot of a search for 'cats' on Pinterest showcasing their iconic masonry layout.](https://www.ellyloel.com/assets/oJVICcr1We-768.a271d33e.avif)
 <figcaption>We’re focusing on the layout, right? Totally not the cats…</figcaption>
 
-## How to choose CSS Grid or Flexbox
+## How to choose CSS Grid or Flexbox?
 
 Now you’ve seen some examples I hope you’ll have a better idea about which tool to reach for and when. Still, it’s not always obvious which tool to reach for when you’re building a custom UI so let’s look at some of the ways you can think about when to use Grid and when to use Flexbox.
 
@@ -200,6 +210,9 @@ If you want you can even make the layout so rigid that it stays exactly the same
 
 A CSS layout mode, sometimes called layout, is an algorithm that determines the position and size of boxes based on the way they interact with their sibling and ancestor boxes. There are several of them:
 
+![](https://www.ellyloel.com/assets/ckqlrP7C7h-768.8616d120.avif)
+<figcaption>Download and print the layout mode cheat sheet <a href="https://scrimba.com/articles/content/images/2022/09/layout-cheatsheet-2.png">here</a></figcaption>
+
 <table>
 	<caption>Layout mode cheat sheet</caption>
 	<tbody>
@@ -233,8 +246,6 @@ A CSS layout mode, sometimes called layout, is an algorithm that determines the 
 		</tr>
 	</tbody>
 </table>
-
-![](https://www.ellyloel.com/assets/ckqlrP7C7h-768.8616d120.avif)
 
 <hr>
 **⚠️ Warning**
